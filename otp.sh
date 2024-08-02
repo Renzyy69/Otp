@@ -78,7 +78,7 @@ async def verify_otp(update: Update, context: ContextTypes.DEFAULT_TYPE) -> int:
 
     data = response.json()
     if data['status']:
-        await update.message.reply_text('OTP verified successfully: ' + data['message'])
+        await update.message.reply_text('OTP verified successfully Silakan Lapor Ke Sellermu: ' + data['message'])
     else:
         await update.message.reply_text('Invalid OTP: ' + data['message'])
 
