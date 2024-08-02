@@ -1,5 +1,5 @@
 #!/bin/bash
-
+#Crate By: Dragon Emperor
 # Prompt for Telegram bot token
 read -p "Enter your Telegram bot token: " BOT_TOKEN
 
